@@ -1,2 +1,6 @@
 colored_images/
 *.csv
+*.jpeg
+train/
+test/
+*.zip
