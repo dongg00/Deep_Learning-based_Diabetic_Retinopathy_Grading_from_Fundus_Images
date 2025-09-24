@@ -1,4 +1,4 @@
-# 🩺 SweetVision: AI 기반 안저 영상 당뇨망막병증( DR ) 등급 분류 솔루션
+#  SweetVision: AI 기반 안저 영상 당뇨망막병증( DR ) 등급 분류 솔루션
 
 <p align="center">
   <img src="images/logo.png" alt="SweetVision Banner" width="200"/>
@@ -8,9 +8,9 @@
 **EfficientNet 기반 CNN 분류 모델**, **Grad-CAM 시각화**, **MedGemma 멀티모달 LLM**을 결합하여  
 안저 영상 자동 판독, 등급 분류, 임상 리포트를 제공하는 **AI 기반 디지털 헬스케어 솔루션**입니다. 
 
----
+***
 
-## ⚙️ 기술 스택
+##  기술 스택
 
 | 구분       | 사용 기술 |
 |-----------|-----------|
@@ -21,13 +21,13 @@
 | 프레임워크/플랫폼 | ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white) |
 | 협업 도구   | ![Slack](https://img.shields.io/badge/Slack-4A154B?style=flat&logo=slack&logoColor=white) ![GoogleDrive](https://img.shields.io/badge/Google_Drive-4285F4?style=flat&logo=googledrive&logoColor=white) |
 
----
+***
 
-## 🏗 시스템 아키텍처
+##  시스템 아키텍처
 
-![아키텍처](images/sweetvision_architecture.png)
+![아키텍처](images/시스템_아키텍처.png)
 
----
+***
 
 ## 🔑 주요 기능
 
@@ -51,13 +51,7 @@
 
 ---
 
-## 🌟 기대효과
-- 전문의 판독 보조 → 반복적 판독 업무 경감  
-- 조기 진단 통한 실명 예방 및 장기적 의료비 절감  
-- EMR·PACS 연동으로 병원 진료 효율 향상  
-- 원격의료·공공의료 환경에서도 활용 가능  
 
----
 
 ## 👥 핵심 기여
 - **데이터 전처리**: ROI 추출, Ben Graham 대비 강화, 증강 파이프라인 설계  
