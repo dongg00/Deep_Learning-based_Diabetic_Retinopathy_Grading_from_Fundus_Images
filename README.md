@@ -21,8 +21,28 @@
 | 프레임워크/플랫폼 | ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white) |
 | 데이터 처리 | ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white) |
 
-
 ***
+##  데이터셋 설명
+
+| 항목       | 내용 |
+|------------|------------------------------------------------------|
+| 데이터 출처 | Kaggle **APTOS 2019 Blindness Detection** / EyePACS |
+| 샘플 수    | 약 35,000장 (안저 이미지) |
+| 주요 대상  | 안과 검진을 통해 촬영된 환자 안저 이미지 |
+
+---
+
+##  주요 Feature
+
+| Feature | 설명 |
+|---------|-----------------------------|
+| 0       | 정상 (No DR) |
+| 1       | 경증 (Mild NPDR) |
+| 2       | 중등도 (Moderate NPDR) |
+| 3       | 중증 (Severe NPDR) |
+| 4       | 증식성 (Proliferative DR) |
+
+
 
 ##  시스템 아키텍처
 
