@@ -40,7 +40,7 @@
 | 2       | 중등도 (Moderate NPDR) |
 | 3       | 중증 (Severe NPDR) |
 | 4       | 증식성 (Proliferative DR) |
-
+***
 
 
 ##  시스템 아키텍처
