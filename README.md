@@ -1,4 +1,4 @@
-#  SweetVision: AI 기반 안저 영상 당뇨망막병증( DR ) 등급 분류 솔루션
+#  SweetVision: 딥러닝 기반 안저 영상 당뇨망막병증( DR ) 등급 분류 솔루션
 
 <p align="center">
   <img src="images/logo.png" alt="SweetVision Banner" width="200"/>
