@@ -4,16 +4,9 @@
   <img src="images/logo.png" alt="SweetVision Banner" width="200"/>
 </p>
 
-**SweetVision** 은 당뇨망막병증(Diabetic Retinopathy, DR) 조기 발견 및 진단 보조를 목표로 한  
-**AI 기반 안저 영상 자동 판독 및 등급 분류 솔루션**입니다.  
-
-- **문제 인식**:  
-  - 국내 당뇨 환자 급증 (2010년 312만명 → 2020년 600만명)  
-  - DR 유병률 최대 80%, 반복적·시간 소모적 수작업 판독 부담  
-- **솔루션 목표**:  
-  - CNN 기반 DR 자동 등급 분류  
-  - Grad-CAM 기반 설명 가능한 AI (XAI) 시각화 제공  
-  - MedGemma 멀티모달 LLM을 통한 임상적 수준 판독지 자동 생성  
+**스위트비전(SweetVision)** 당뇨망막병증(DR) 조기 진단의 필요성과 전문의 판독 부담 문제를 해결하기 위해  
+**EfficientNet 기반 CNN 분류 모델**, **Grad-CAM 시각화**, **MedGemma 멀티모달 LLM**을 결합하여  
+안저 영상 자동 판독, 등급 분류, 임상 리포트를 제공하는 **AI 기반 디지털 헬스케어 솔루션**입니다. 
 
 ---
 
