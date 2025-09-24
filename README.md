@@ -33,12 +33,12 @@
 ## 🔑 주요 기능
 
 ### 1. 안저 이미지 입력 & 전처리
-> 안구 ROI 추출, Ben Graham 기법으로 병변 특징 강조 → 데이터 증강·정규화 후 모델 입력
+> **안구 ROI 추출, Ben Graham 기법**으로 병변 특징 강조 → 데이터 증강·정규화 후 모델 입력
 
 | **입력 & 전처리** |
 |-------------------|
 | <img src="images/입력.png" width="500"/> |
----
+
 
 ### 2. DR 등급 분류 (0~4단계)
 > **EfficientNet-B5 기반 CNN 모델**로 당뇨망막병증 등급 자동 분류 (Kappa score 0.92 달성)
@@ -46,7 +46,7 @@
 | **등급 분류** |
 |---------------|
 | <img src="images/등급분류.png" width="500"/> |
----
+
 
 ### 3. 설명 가능한 AI (XAI) 시각화
 > **Grad-CAM**으로 모델이 주목한 병변 위치를 히트맵으로 시각화, 판독 신뢰도 확보
@@ -54,7 +54,7 @@
 | **XAI 시각화** |
 |----------------|
 | <img src="images/XAI.png" width="500"/> |
----
+
 
 ### 4. 임상 판독지 자동 생성
 > **MedGemma 멀티모달 LLM**으로 시각화 이미지 + 예측 결과 기반 임상 수준 판독지 자동 생성
@@ -62,28 +62,26 @@
 | **임상 리포트 생성** |
 |----------------------|
 | <img src="images/소견.png" width="500"/> |
----
+
 
 
 
 ## 👥 핵심 기여
 - **데이터 전처리**: ROI 추출, Ben Graham 대비 강화, 증강 파이프라인 설계  
-- **모델 개발**: EfficientNet-B5 기반 CNN 모델 학습 및 3-Fold 교차검증 적용  
-- **성능 개선**: 클래스 불균형 가중치, Test-Time Augmentation, Optimized Rounder 적용 → Kappa 0.92 달성  
+- **모델 개발**: EfficientNet-B5 기반 DR 등급 분류 (Kappa 0.92)
 - **XAI + LLM 통합**: Grad-CAM 시각화와 MedGemma 기반 프롬프트 설계로 임상적 판독 리포트 자동 생성  
 
 ---
 
-## 📂 폴더 구조 (예시)
+## 📂 폴더 구조 (주요)
 
 <pre>
 📂 SweetVision/
- ┣ 📜 app.py                  # Streamlit 메인 실행 파일
- ┣ 📜 model.py                # EfficientNet-B5 모델 정의 및 학습 코드
- ┣ 📜 preprocess.py           # 이미지 전처리 (ROI 추출, Ben Graham, 증강)
- ┣ 📜 xai.py                  # Grad-CAM 기반 시각화 모듈
- ┣ 📜 llm_prompt.py           # MedGemma 프롬프트 엔지니어링
- ┣ 📂 data/                   # 학습/테스트용 이미지 데이터
- ┣ 📂 outputs/                # 결과 저장 (히트맵, 판독 리포트)
- ┗ 📂 images/                 # README 및 UI 스크린샷
+┣ 📜 run.py # 메인 실행 엔트리(학습/추론/데모 구동)
+┣ 📜 config.py # 경로, 하이퍼파라미터, 모델/데이터 환경 설정
+┣ 📜 preprocessing.py # OpenCV 기반 전처리(ROI 추출, Ben Graham, 정규화/증강)
+┣ 📜 model.py # EfficientNet-B5 모델 정의 및 로더
+┣ 📜 03_modeling.py # 학습/평가 파이프라인(학습 루프, 검증, 저장)
+┣ 📜 xai_analysis.py # Grad-CAM 등 XAI 시각화 모듈
+┣ 📜 llm_integration.py # MedGemma 등 LLM 연동(소견/판독 리포트 생성)
 </pre>
