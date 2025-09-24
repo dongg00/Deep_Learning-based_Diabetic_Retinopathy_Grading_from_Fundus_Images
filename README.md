@@ -17,9 +17,10 @@
 | 언어       | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) |
 | 딥러닝 모델 | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white) ![EfficientNet](https://img.shields.io/badge/EfficientNet--B5-2E8B57?style=flat) |
 | XAI        | ![Grad-CAM](https://img.shields.io/badge/Grad--CAM-4682B4?style=flat) |
-| LLM        | ![MedGemma](https://img.shields.io/badge/MedGemma-8A2BE2?style=flat) |
+| LLM 연동   | ![MedGemma](https://img.shields.io/badge/MedGemma-8A2BE2?style=flat) |
 | 프레임워크/플랫폼 | ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white) |
-| 협업 도구   | ![Slack](https://img.shields.io/badge/Slack-4A154B?style=flat&logo=slack&logoColor=white) ![GoogleDrive](https://img.shields.io/badge/Google_Drive-4285F4?style=flat&logo=googledrive&logoColor=white) |
+| 데이터 처리 | ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white) |
+
 
 ***
 
